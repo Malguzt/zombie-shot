@@ -1,4 +1,5 @@
 #include <time.h>
+#include <iostream>
 #include "Level.h"
 #include "EmptyTarget.h"
 
@@ -47,14 +48,13 @@ void Level::draw(RenderWindow &app)
 
 void Level::runActions()
 {
-    bool isShowTime = time(NULL) % 100 == 0;
+    difficulty += 0.001;
+    std::cout << difficulty << std::endl;
+
     for (std::vector<Target*>::iterator it = targets.begin(); it != targets.end(); ++it)
     {
         (*it)->runActions(&(*it), board);
-        if(isShowTime)
-        {
-            (*it)->upDifficulty();
-        }
+        (*it)->setDifficulty(difficulty);
     }
 }
 

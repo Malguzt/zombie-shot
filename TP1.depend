@@ -151,14 +151,14 @@
 	<time.h>
 	"Level.h"
 
-1418690674 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Level.h
+1418742898 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Level.h
 	<SFML/Graphics.hpp>
 	<vector>
 	<time.h>
 	"Target.h"
 	"Board.h"
 
-1418716858 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Target.h
+1418717818 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Target.h
 	<SFML/Graphics.hpp>
 	"Board.h"
 
@@ -185,7 +185,7 @@
 1418691544 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/EmptyTarget.h
 	<Target.h>
 
-1418716080 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/EmptyTarget.cpp
+1418718872 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/EmptyTarget.cpp
 	"EmptyTarget.h"
 	"HumanAppearingTarget.h"
 	"ZombieAppearingTarget.h"
@@ -214,8 +214,9 @@
 	"HumanDisappearingTarget.h"
 	"EmptyTarget.h"
 
-1418717030 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Level.cpp
+1418742882 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Level.cpp
 	<time.h>
+	<iostream>
 	"Level.h"
 	"EmptyTarget.h"
 
@@ -223,7 +224,7 @@
 	"StillTarget.h"
 	"EmptyTarget.h"
 
-1418716873 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Target.cpp
+1418717818 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Target.cpp
 	"Target.h"
 	"EmptyTarget.h"
 

@@ -94,8 +94,3 @@ void Target::setDifficulty(int value)
         difficulty = 1;
     }
 }
-
-void Target::upDifficulty()
-{
-    ++difficulty;
-}

@@ -23,10 +23,9 @@ EmptyTarget::~EmptyTarget()
 
 void EmptyTarget::runActions(Target **target, Board &board)
 {
-    int a = rand() % 1000;
-    if(a < difficulty)
+    if(rand() % 10000 < difficulty)
     {
-        if(a % 4)
+        if(rand() % 4)
         {
             *target = new ZombieAppearingTarget(x, y, difficulty);
         } else {

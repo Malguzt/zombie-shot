@@ -21,6 +21,7 @@ class Level
         void checkTheShot(Vector2i position);
     protected:
     private:
+        float difficulty = 2;
         time_t lastShot;
         Board board;
         void createBushes();
