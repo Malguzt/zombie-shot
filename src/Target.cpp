@@ -78,6 +78,8 @@ bool Target::isKilled(Target **target)
     {
         *target = new EmptyTarget(x, y, difficulty);
         delete this;
+
+        return true;
     }
 
     return false;
@@ -91,4 +93,9 @@ void Target::setDifficulty(int value)
     } else {
         difficulty = 1;
     }
+}
+
+void Target::upDifficulty()
+{
+    ++difficulty;
 }

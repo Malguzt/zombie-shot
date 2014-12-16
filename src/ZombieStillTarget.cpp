@@ -20,7 +20,7 @@ void ZombieStillTarget::runActions(Target **target, Board &board)
 {
     if(!isKilled(target))
     {
-        if((rand() % 3000) < difficulty)
+        if((rand() % 300000) < difficulty)
         {
             *target = new ZombieDisappearingTarget(x, y, difficulty, characterFileName);
             delete this;

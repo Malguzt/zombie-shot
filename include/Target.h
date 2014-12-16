@@ -20,6 +20,7 @@ class Target
         int getX();
         int getY();
         void setDifficulty(int value);
+        void upDifficulty();
     protected:
         bool isKilled(Target **target);
         void shake();
