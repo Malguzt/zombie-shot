@@ -8,7 +8,7 @@ StillTarget::StillTarget(int x, int y, int difficulty, std::string fileName)
 
     this->x = x;
     this->y = y;
-    this->difficulty = difficulty;
+    setDifficulty(difficulty);
 
     characterFileName = fileName;
     characterTexture.loadFromFile(characterFileName);

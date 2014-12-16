@@ -36,13 +36,19 @@ void Level::draw(RenderWindow &app)
     }
 
     app.display();
+
+    // Put the normal sight after a shot
+    if(time(NULL) > (lastShot + 0.001))
+    {
+        sightTexture.loadFromFile("img/sight.png");
+    }
 }
 
-void Level::runStates()
+void Level::runActions()
 {
     for (std::vector<Target*>::iterator it = targets.begin(); it != targets.end(); ++it)
     {
-        (*it)->runState(&(*it));
+        (*it)->runActions(&(*it), board);
     }
 }
 
@@ -88,4 +94,7 @@ void Level::checkTheShot(Vector2i position)
     {
         (*it)->checkTheShot(position, board);
     }
+
+    lastShot = time(NULL);
+    sightTexture.loadFromFile("img/sight2.png");
 }

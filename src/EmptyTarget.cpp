@@ -4,7 +4,6 @@
 
 EmptyTarget::EmptyTarget()
 {
-    difficulty = 2;
 }
 
 EmptyTarget::EmptyTarget(int x, int y, int difficulty)
@@ -22,16 +21,16 @@ EmptyTarget::~EmptyTarget()
 }
 
 
-void EmptyTarget::runState(Target **target)
+void EmptyTarget::runActions(Target **target, Board &board)
 {
     int a = rand() % 1000;
     if(a < difficulty)
     {
-        if(a % 2)
+        if(a % 4)
         {
-            *target = new HumanAppearingTarget(x, y, difficulty);
-        } else {
             *target = new ZombieAppearingTarget(x, y, difficulty);
+        } else {
+            *target = new HumanAppearingTarget(x, y, difficulty);
         }
         delete this;
     }

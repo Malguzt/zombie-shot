@@ -43,7 +43,7 @@ int main()
 
         }
 
-        aLevel.runStates();
+        aLevel.runActions();
 
         aLevel.draw(app);
     }

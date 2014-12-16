@@ -11,7 +11,7 @@ class AppearingTarget : public Target
         AppearingTarget(int x, int y, int difficulty);
         virtual ~AppearingTarget();
         void draw(RenderWindow &app);
-        virtual void runState(Target **target) = 0;
+        virtual void runActions(Target **target, Board &board) = 0;
     protected:
         std::string characterFileName;
         int step = 0;

@@ -10,7 +10,7 @@ class EmptyTarget : public Target
         EmptyTarget();
         EmptyTarget(int x, int y, int difficulty);
         virtual ~EmptyTarget();
-        void runState(Target **target);
+        void runActions(Target **target, Board &board);
     protected:
     private:
 };

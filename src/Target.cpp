@@ -4,8 +4,6 @@ using namespace sf;
 
 Target::Target()
 {
-    difficulty = 1;
-
     loadSprite();
 
     newPosition();
@@ -15,7 +13,8 @@ Target::Target(int x, int y, int difficulty)
 {
     this->x = x;
     this->y = y;
-    this->difficulty = difficulty;
+    setDifficulty(difficulty);
+
     bushArea = IntRect(x, y, 63, 63);
 
     loadSprite();
@@ -82,4 +81,14 @@ bool Target::isKilled(Target **target)
     }
 
     return false;
+}
+
+void Target::setDifficulty(int value)
+{
+    if(value > 0)
+    {
+        difficulty = value;
+    } else {
+        difficulty = 1;
+    }
 }

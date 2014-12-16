@@ -37,7 +37,7 @@ void DisappearingTarget::draw(RenderWindow &app)
     app.draw(characterSprite);
 }
 
-void DisappearingTarget::runState(Target **target)
+void DisappearingTarget::runActions(Target **target, Board &board)
 {
     if(step < 0)
     {

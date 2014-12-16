@@ -13,18 +13,19 @@ class Target
         Target(int x, int y, int difficulty);
         virtual ~Target();
         virtual void draw(RenderWindow &app);
-        virtual void runState(Target **target) = 0;
+        virtual void runActions(Target **target, Board &board) = 0;
         virtual void checkTheShot(Vector2i &position, Board &board);
         void newPosition();
         bool zoneIsUsed(Target &otherTarget);
         int getX();
         int getY();
+        void setDifficulty(int value);
     protected:
         bool isKilled(Target **target);
         void shake();
         int x;
         int y;
-        int difficulty;
+        int difficulty = 2;
         void loadSprite();
         Sprite bushSprite;
         Texture characterTexture;

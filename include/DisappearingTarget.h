@@ -10,7 +10,7 @@ class DisappearingTarget : public Target
         DisappearingTarget(int x, int y, int difficulty, std::string fileName);
         virtual ~DisappearingTarget();
         void draw(RenderWindow &app);
-        void runState(Target **target);
+        void runActions(Target **target, Board &board);
     protected:
     private:
         int step = 60;

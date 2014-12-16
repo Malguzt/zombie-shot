@@ -13,7 +13,7 @@ HumanStillTarget::~HumanStillTarget()
 {
 }
 
-void HumanStillTarget::runState(Target **target)
+void HumanStillTarget::runActions(Target **target, Board &board)
 {
     if(!isKilled(target))
     {

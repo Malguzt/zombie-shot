@@ -16,7 +16,7 @@ HumanAppearingTarget::~HumanAppearingTarget()
 {
 }
 
-void HumanAppearingTarget::runState(Target **target)
+void HumanAppearingTarget::runActions(Target **target, Board &board)
 {
     if(!isKilled(target))
     {

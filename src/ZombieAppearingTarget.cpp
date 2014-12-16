@@ -16,7 +16,7 @@ ZombieAppearingTarget::~ZombieAppearingTarget()
 {
 }
 
-void ZombieAppearingTarget::runState(Target **target)
+void ZombieAppearingTarget::runActions(Target **target, Board &board)
 {
     if(!isKilled(target))
     {

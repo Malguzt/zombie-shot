@@ -3,6 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <vector>
+#include <time.h>
 #include "Target.h"
 #include "Board.h"
 
@@ -15,11 +16,12 @@ class Level
         Level();
         virtual ~Level();
         void draw(RenderWindow &app);
-        void runStates();
+        void runActions();
         void setSightPosition(Vector2i position);
         void checkTheShot(Vector2i position);
     protected:
     private:
+        time_t lastShot;
         Board board;
         void createBushes();
         void loadSprites();
