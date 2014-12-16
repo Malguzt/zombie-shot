@@ -1,0 +1,253 @@
+# depslib dependency file v1.0
+1418587411 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<time.h>
+	"Level.h"
+
+1418367248 
+
+1418588310 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Target.h
+	<SFML/Graphics.hpp>
+
+1418588310 hics.hpp>
+
+1418588598 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Target.cpp
+	"Target.h"
+
+1418587446 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Level.cpp
+	"Level.h"
+	<EmptyTarget.h>
+
+1418503402 et.h>
+
+1418587247 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Level.h
+	<Target.h>
+	<SFML/Graphics.hpp>
+	<vector>
+
+1418501432 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/AppearingTarget.cpp
+	"AppearingTarget.h"
+	"StillTarget.h"
+
+1418501432 et.h"
+
+1418501441 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/AppearingTarget.h
+	<Target.h>
+	<string>
+
+1418505484 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/EmptyTarget.cpp
+	"EmptyTarget.h"
+	"HumanAppearingTarget.h"
+	"ZombieAppearingTarget.h"
+
+1418505484 earingTarget.h"
+
+1418367248 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/EmptyTarget.h
+	<Target.h>
+
+1418368478 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/StillTarget.cpp
+	"StillTarget.h"
+	"DisappearingTarget.h"
+
+1418368478 ingTarget.h"
+
+1418501984 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/StillTarget.h
+	<Target.h>
+	<string>
+
+1418368539 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/DisappearingTarget.cpp
+	"DisappearingTarget.h"
+	"EmptyTarget.h"
+
+1418368563 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/DisappearingTarget.h
+	<Target.h>
+	<string>
+
+1418501432 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/HumanAppearingTarget.h
+	<AppearingTarget.h>
+
+1418503961 Target.h>
+
+1418504337 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/HumanAppearingTarget.cpp
+	"HumanAppearingTarget.h"
+	"HumanStillTarget.h"
+
+1418504337 lTarget.h"
+
+1418501687 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/HumanStillTarget.h
+	<StillTarget.h>
+
+1418503553 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/HumanDisappearingTarget.cpp
+	"HumanDisappearingTarget.h"
+
+1418503342 ppearingTarget.h"
+
+1418501907 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/HumanDisappearingTarget.h
+	<DisappearingTarget.h>
+
+1418503470 ingTarget.h>
+
+1418503342 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/HumanStillTarget.cpp
+	"HumanStillTarget.h"
+	"HumanDisappearingTarget.h"
+
+1418504337 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/ZombieAppearingTarget.cpp
+	"ZombieAppearingTarget.h"
+	"ZombieStillTarget.h"
+
+1418504337 llTarget.h"
+
+1418503961 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/ZombieAppearingTarget.h
+	<AppearingTarget.h>
+
+1418503402 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/ZombieStillTarget.h
+	<StillTarget.h>
+
+1418503553 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/ZombieDisappearingTarget.cpp
+	"ZombieDisappearingTarget.h"
+
+1418503553 appearingTarget.h"
+
+1418503470 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/ZombieDisappearingTarget.h
+	<DisappearingTarget.h>
+
+1418503553 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/ZombieStillTarget.cpp
+	"ZombieStillTarget.h"
+	"ZombieDisappearingTarget.h"
+
+1418587411 source:d:\malguzt\projects\unl\modelos_y_algoritmos\tp1\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<time.h>
+	"Level.h"
+
+1418587247 d:\malguzt\projects\unl\modelos_y_algoritmos\tp1\include\level.h
+	<Target.h>
+	<SFML/Graphics.hpp>
+	<vector>
+
+1418588310 d:\malguzt\projects\unl\modelos_y_algoritmos\tp1\include\target.h
+	<SFML/Graphics.hpp>
+
+1418501432 source:d:\malguzt\projects\unl\modelos_y_algoritmos\tp1\src\appearingtarget.cpp
+	"AppearingTarget.h"
+	"StillTarget.h"
+
+1418501441 d:\malguzt\projects\unl\modelos_y_algoritmos\tp1\include\appearingtarget.h
+	<Target.h>
+	<string>
+
+1418501984 d:\malguzt\projects\unl\modelos_y_algoritmos\tp1\include\stilltarget.h
+	<Target.h>
+	<string>
+
+1418368539 source:d:\malguzt\projects\unl\modelos_y_algoritmos\tp1\src\disappearingtarget.cpp
+	"DisappearingTa
+
+1418626125 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<time.h>
+	"Level.h"
+
+1418624898 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Level.h
+	<SFML/Graphics.hpp>
+	<vector>
+	"Target.h"
+	"Board.h"
+
+1418627589 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Target.h
+	<SFML/Graphics.hpp>
+	"Board.h"
+
+1418627777 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/AppearingTarget.cpp
+	"AppearingTarget.h"
+	"StillTarget.h"
+
+1418626576 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/AppearingTarget.h
+	<Target.h>
+	<string>
+
+1418626532 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/StillTarget.h
+	<Target.h>
+	<string>
+
+1418627777 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/DisappearingTarget.cpp
+	"DisappearingTarget.h"
+	"EmptyTarget.h"
+
+1418368563 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/DisappearingTarget.h
+	<Target.h>
+	<string>
+
+1418367248 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/EmptyTarget.h
+	<Target.h>
+
+1418505484 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/EmptyTarget.cpp
+	"EmptyTarget.h"
+	"HumanAppearingTarget.h"
+	"ZombieAppearingTarget.h"
+
+1418627053 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/HumanAppearingTarget.h
+	<AppearingTarget.h>
+
+1418627132 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/ZombieAppearingTarget.h
+	<AppearingTarget.h>
+
+1418627671 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/HumanAppearingTarget.cpp
+	"HumanAppearingTarget.h"
+	"HumanStillTarget.h"
+
+1418625167 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/HumanStillTarget.h
+	<StillTarget.h>
+
+1418503553 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/HumanDisappearingTarget.cpp
+	"HumanDisappearingTarget.h"
+
+1418501907 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/HumanDisappearingTarget.h
+	<DisappearingTarget.h>
+
+1418627635 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/HumanStillTarget.cpp
+	"HumanStillTarget.h"
+	"HumanDisappearingTarget.h"
+	"EmptyTarget.h"
+
+1418628520 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Level.cpp
+	"Level.h"
+	<EmptyTarget.h>
+
+1418626532 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/StillTarget.cpp
+	"StillTarget.h"
+	"EmptyTarget.h"
+
+1418641299 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Target.cpp
+	"Target.h"
+	"EmptyTarget.h"
+
+1418627688 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/ZombieAppearingTarget.cpp
+	"ZombieAppearingTarget.h"
+	"ZombieStillTarget.h"
+
+1418625804 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/ZombieStillTarget.h
+	<StillTarget.h>
+
+1418503553 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/ZombieDisappearingTarget.cpp
+	"ZombieDisappearingTarget.h"
+
+1418503470 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/ZombieDisappearingTarget.h
+	<DisappearingTarget.h>
+
+1418627619 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/ZombieStillTarget.cpp
+	"ZombieStillTarget.h"
+	"ZombieDisappearingTarget.h"
+	"EmptyTarget.h"
+
+1418628337 /home/malguzt/projects/unl/modelos_y_algoritmos/TP1/include/Board.h
+	<SFML/Graphics.hpp>
+
+1418628493 source:/home/malguzt/projects/unl/modelos_y_algoritmos/TP1/src/Board.cpp
+	<string>
+	"Board.h"
+	<sstream>
+
