@@ -255,3 +255,113 @@
 	"Board.h"
 	<sstream>
 
+1418993289 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<time.h>
+	"Level.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/Level.h
+	<SFML/Graphics.hpp>
+	<vector>
+	<time.h>
+	"Target.h"
+	"Board.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/Target.h
+	<SFML/Graphics.hpp>
+	"Board.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/Board.h
+	<SFML/Graphics.hpp>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/AppearingTarget.cpp
+	"AppearingTarget.h"
+	"StillTarget.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/AppearingTarget.h
+	<Target.h>
+	<string>
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/StillTarget.h
+	<Target.h>
+	<string>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/Board.cpp
+	<string>
+	"Board.h"
+	<sstream>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/DisappearingTarget.cpp
+	"DisappearingTarget.h"
+	"EmptyTarget.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/DisappearingTarget.h
+	<Target.h>
+	<string>
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/EmptyTarget.h
+	<Target.h>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/EmptyTarget.cpp
+	"EmptyTarget.h"
+	"HumanAppearingTarget.h"
+	"ZombieAppearingTarget.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/HumanAppearingTarget.h
+	<AppearingTarget.h>
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/ZombieAppearingTarget.h
+	<AppearingTarget.h>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/HumanAppearingTarget.cpp
+	"HumanAppearingTarget.h"
+	"HumanStillTarget.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/HumanStillTarget.h
+	<StillTarget.h>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/HumanDisappearingTarget.cpp
+	"HumanDisappearingTarget.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/HumanDisappearingTarget.h
+	<DisappearingTarget.h>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/HumanStillTarget.cpp
+	"HumanStillTarget.h"
+	"HumanDisappearingTarget.h"
+	"EmptyTarget.h"
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/Level.cpp
+	<time.h>
+	<iostream>
+	"Level.h"
+	"EmptyTarget.h"
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/StillTarget.cpp
+	"StillTarget.h"
+	"EmptyTarget.h"
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/Target.cpp
+	"Target.h"
+	"EmptyTarget.h"
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/ZombieAppearingTarget.cpp
+	"ZombieAppearingTarget.h"
+	"ZombieStillTarget.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/ZombieStillTarget.h
+	<StillTarget.h>
+	<SFML/Graphics.hpp>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/ZombieDisappearingTarget.cpp
+	"ZombieDisappearingTarget.h"
+
+1418846866 /home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/include/ZombieDisappearingTarget.h
+	<DisappearingTarget.h>
+
+1418846866 source:/home/likewise-open/GLOBANT/jose.lenscak/projects/games/zombie-shot/src/ZombieStillTarget.cpp
+	"ZombieStillTarget.h"
+	"ZombieDisappearingTarget.h"
+	"EmptyTarget.h"
+

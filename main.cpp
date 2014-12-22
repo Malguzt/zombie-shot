@@ -1,6 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <time.h>
+
 #include "Level.h"
 
 using namespace sf;
@@ -16,6 +17,7 @@ int main()
     Level aLevel;
 
     app.setMouseCursorVisible(false);
+    app.setFramerateLimit(60);
 
 	// Start the game loop
     while (app.isOpen())
